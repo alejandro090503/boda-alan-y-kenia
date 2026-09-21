@@ -794,7 +794,7 @@ body{background:var(--bg);color:var(--text);font-family:'Cormorant Garamond',ser
 
       <div class="rsvp-deadline" style="display:flex;justify-content:center;margin-top:20px">
         <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5z"/></svg>
-        &nbsp;Confirma antes del 19 de Septiembre de 2026
+        &nbsp;Confirma antes del 9 de Octubre de 2026
       </div>
     </div>
   </section>
@@ -844,7 +844,7 @@ gsap.registerPlugin(ScrollTrigger);
 (function(){
   var PANEL_API = 'https://panel-invitados.vercel.app/api/confirmar';
   var RSVP_URL  = 'https://boda-alan-y-kenia.vercel.app';
-  var DEADLINE  = new Date(2026, 8, 19, 23, 59, 59, 999);
+  var DEADLINE  = new Date(2026, 9, 9, 23, 59, 59, 999);
   var frozen    = Date.now() > DEADLINE.getTime();
 
   var params  = new URLSearchParams(window.location.search);
